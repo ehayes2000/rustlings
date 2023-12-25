@@ -44,7 +44,6 @@ impl State {
     }
 
     fn process(&mut self, message: Message) {
-<<<<<<< HEAD:exercises/enums/enums3.rs
         // TODO: create a match expression to process the different message
         // variants
         // Remember: When passing a tuple as a function argument, you'll need
@@ -55,11 +54,6 @@ impl State {
             Message::Move(p) => self.move_position(p),
             Message::Quit => self.quit()
         }
-=======
-        // TODO: create a match expression to process the different message variants
-        // Remember: When passing a tuple as a function argument, you'll need extra parentheses:
-        // fn function((t, u, p, l, e))
->>>>>>> main:exercises/08_enums/enums3.rs
     }
 }
 
